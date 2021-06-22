@@ -5,7 +5,7 @@ require_relative 'generate_emails'
 def main
   random_emails = generate_mailru_emails
   result = get_result_for_emails(random_emails, log: true)
-  write_result_to_a_file(result, 'result.json')
+  write_result_to_a_file(result, '../result.json')
 end
 
 def get_result_for_emails(emails, log: false)
