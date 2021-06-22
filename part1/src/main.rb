@@ -26,7 +26,7 @@ def get_result_for_emails(emails, log: false)
       redo
     end
 
-    result[email] = body
+    result[email] = body if response.code == 200
 
     next unless log
 
