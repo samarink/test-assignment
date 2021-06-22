@@ -1,0 +1,18 @@
+curl -s 'https://gql.twitch.tv/gql' \
+  -H 'Connection: keep-alive' \
+  -H 'Pragma: no-cache' \
+  -H 'Cache-Control: no-cache' \
+  -H 'Accept-Language: en-US' \
+  -H 'Client-Id: kimne78kx3ncx6brgo4mv6wki5h1ko' \
+  -H 'User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36' \
+  -H 'X-Device-Id: PceH2jRurhRtVCXurozC3ZQ59gQwI4ta' \
+  -H 'Content-Type: text/plain;charset=UTF-8' \
+  -H 'Accept: */*' \
+  -H 'Sec-GPC: 1' \
+  -H 'Origin: https://www.twitch.tv' \
+  -H 'Sec-Fetch-Site: same-site' \
+  -H 'Sec-Fetch-Mode: cors' \
+  -H 'Sec-Fetch-Dest: empty' \
+  -H 'Referer: https://www.twitch.tv/' \
+  --data-raw '[{"operationName":"SearchResultsPage_SearchResults","variables":{"query":"Pool","options":null,"requestID":"0030b15f-d4f2-4ed7-a39b-4025374f112b"},"extensions":{"persistedQuery":{"version":1,"sha256Hash":"ee977ac21b324669b4c109be49ed3032227e8850bea18503d0ced68e8156c2a5"}}}]' \
+  --compressed
