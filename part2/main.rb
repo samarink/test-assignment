@@ -8,7 +8,18 @@ def main
   response = `./fetchlinks.sh`
   links = extract_links(response)
 
-  puts hints, JSON.pretty_generate(links)
+  print_results hints, links
+end
+
+def print_results(hints, links)
+  puts 'hints'
+  puts hints
+  puts
+  links.each do |key, vals|
+    puts key
+    puts vals
+    puts
+  end
 end
 
 main if __FILE__ == $PROGRAM_NAME
