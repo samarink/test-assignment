@@ -1,0 +1,20 @@
+curl -s 'https://twitter.com/i/api/graphql/TcBvfe73eyQZSx3GW32RHQ/UserTweets?variables=%7B%22userId%22%3A%2244196397%22%2C%22count%22%3A20%2C%22withHighlightedLabel%22%3Atrue%2C%22withTweetQuoteCount%22%3Atrue%2C%22includePromotedContent%22%3Atrue%2C%22withTweetResult%22%3Atrue%2C%22withReactions%22%3Afalse%2C%22withSuperFollowsTweetFields%22%3Afalse%2C%22withUserResults%22%3Afalse%2C%22withVoice%22%3Afalse%2C%22withNonLegacyCard%22%3Atrue%2C%22withBirdwatchPivots%22%3Afalse%7D' \
+  -H 'authority: twitter.com' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'authorization: Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA' \
+  -H 'x-twitter-client-language: en' \
+  -H 'x-csrf-token: 67a6db460349eed8d0b50c98e8356421' \
+  -H 'x-guest-token: 1407623905011982336' \
+  -H 'x-twitter-active-user: yes' \
+  -H 'user-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36' \
+  -H 'content-type: application/json' \
+  -H 'accept: */*' \
+  -H 'sec-gpc: 1' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://twitter.com/elonmusk' \
+  -H 'accept-language: en-US,en;q=0.9' \
+  -H 'cookie: personalization_id="v1_+hTPRHm0cAi2rmx0nMVY1A=="; guest_id=v1%3A162443866433649368; ct0=67a6db460349eed8d0b50c98e8356421; gt=1407623905011982336; _sl=1; _twitter_sess=BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPHzFjh6AToMY3NyZl9p%250AZCIlNzY2NTIzN2FlNjFlOWM1NzlhMGY4NDEyZmQ0YzIwOGI6B2lkIiU2MTQ1%250AZjkxYTYzODA3OGM2YTEyMzE0NWI2MTM2YjdjNw%253D%253D--766de6a9cbf9dcb6e58dfb0a3daa52b2df2a744b' \
+  --compressed
